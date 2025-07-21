@@ -1,0 +1,65 @@
+/* PatientList.css */
+
+.patient-list {
+  margin-top: 1em;
+}
+
+.patient-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-list li {
+  background: transparent;
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #344b6e;
+  cursor: pointer;
+  transition: background 0.2s, font-weight 0.2s;
+}
+
+.patient-list li:hover {
+  background: #336699;
+  color: #fff;
+  font-weight: bold;
+}
+
+.patient-list li.selected {
+  background: #4f7faa;
+  color: #fff;
+  font-weight: bold;
+}
+
+.patient-list input[type="text"] {
+  padding: 0.5em;
+  width: 92%;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1em;
+  background: #ddeafd;
+  color: #234567;
+  outline: none;
+}
+
+.patient-list h2 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+/* Scrollbar styling for long lists */
+.patient-list ul {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.patient-list ul::-webkit-scrollbar {
+  width: 8px;
+  background: #234567;
+}
+.patient-list ul::-webkit-scrollbar-thumb {
+  background: #4f7faa;
+  border-radius: 4px;
+}

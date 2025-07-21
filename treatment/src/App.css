@@ -1,0 +1,64 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f8fd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.left-pane {
+  width: 300px;
+  background: #234567;
+  color: #fff;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.patient-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-list li {
+  padding: 0.75em 1em;
+  cursor: pointer;
+  border-bottom: 1px solid #344b6e;
+  transition: background .2s;
+}
+
+.patient-list li:hover, .patient-list li.selected {
+  background: #4f7faa;
+  font-weight: bold;
+}
+
+.treatment-dashboard {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.treatment-title {
+  font-size: 1.5em;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.treatment-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px #0001;
+}
+
+.treatment-entry {
+  margin-bottom: .5em;
+}
+
+.treatment-summary {
+  color: #234567;
+  font-weight: bold;
+  margin-top: 1em;
+  border-top: 1px solid #eef;
+  padding-top: .8em;
+}
