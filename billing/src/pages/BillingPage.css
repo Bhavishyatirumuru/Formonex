@@ -1,0 +1,95 @@
+.billing-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f8fc;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.billing-form input,
+.search-section input {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.billing-form button,
+.search-section button {
+  padding: 10px 16px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.billing-form button:hover,
+.search-section button:hover {
+  background-color: #0d47a1;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bill-item {
+  background: #ffffff;
+  padding: 1rem;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.bill-item button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #444;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bill-item button:hover {
+  background-color: #222;
+}
+
+.bill-item input {
+  padding: 6px;
+  margin-right: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pdf-button {
+  padding: 10px 20px;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.pdf-button:hover {
+  background-color: #b71c1c;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
