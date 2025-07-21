@@ -1,0 +1,76 @@
+body {
+  background: #f7f8fa;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+.login-container, .dashboard {
+  max-width: 400px;
+  margin: 80px auto 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 32px;
+}
+input, select {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #d5d8df;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #0056b3;
+}
+.error-message {
+  color: #e0102a;
+  margin-top: 10px;
+  text-align: center;
+}
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.logout-btn {
+  background: #f44336;
+  color: #fff;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+.patient-table th, .patient-table td {
+  border-bottom: 1px solid #eef0f2;
+  padding: 10px;
+  text-align: left;
+}
+.patient-table th {
+  background: #f7f8fa;
+  color: #495057;
+}

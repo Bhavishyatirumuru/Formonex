@@ -1,0 +1,121 @@
+body {
+  background: #f7f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Dashboard Container */
+.dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  padding: 32px;
+}
+
+/* Dashboard Header and Logout */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.logout-btn {
+  background: #dc3545;
+  color: #fff;
+  padding: 7px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+.logout-btn:hover {
+  background: #b91c1c;
+}
+
+/* Add Patient Form */
+.form-section {
+  margin-bottom: 24px;
+}
+input, select {
+  width: 100%;
+  padding: 9px 13px;
+  margin: 7px 0 14px 0;
+  border: 1px solid #d5d8df;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Patient Table */
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  font-size: 15px;
+}
+.patient-table th, .patient-table td {
+  border-bottom: 1px solid #eef0f2;
+  padding: 10px 12px;
+  text-align: left;
+}
+.patient-table th {
+  background: #f1f3f6;
+  font-weight: 600;
+  color: #24292f;
+}
+
+/* Delete Button */
+.patient-table button {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.patient-table button:hover {
+  background: #b71c1c;
+}
+
+/* Success and Error Messages */
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin: 10px 0;
+}
+.error-message {
+  color: #e0102a;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .dashboard {
+    padding: 8px;
+    max-width: 98vw;
+  }
+  .patient-table th, .patient-table td {
+    font-size: 13px;
+    padding: 6px 5px;
+  }
+}
